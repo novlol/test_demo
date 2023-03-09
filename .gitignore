@@ -1,0 +1,17 @@
+#通用
+.idea/*
+uploads/*
+__pycache__/*
+*/__pycache__/*
+*.pyc
+*.log
+*.log.*
+/root_log/*.log*
+*/*.apk
+*/*.zip
+*.lock
+*.out
+/venv/
+*/report/
+*/report/*
+*/pytest_cache
