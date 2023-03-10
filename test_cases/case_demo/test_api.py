@@ -4,8 +4,62 @@ import allure
 @allure.feature("API Tests")
 class TestAPI:
 
-    @allure.title("Get all users")
-    def test_get_all_users(self, base_url, session):
+    @allure.title("test_1")
+    def test_1(self, base_url, session):
+        with allure.step('请求百度'):
+            response = session.get(base_url)
+            assert response.status_code == 200
+
+    @allure.title("test_2")
+    def test_1(self, base_url, session):
+        with allure.step('请求百度'):
+            response = session.get(base_url)
+            assert response.status_code == 200
+
+    @allure.title("test_3")
+    def test_1(self, base_url, session):
+        with allure.step('请求百度'):
+            response = session.get(base_url)
+            assert response.status_code == 200
+
+    @allure.title("test_4")
+    def test_1(self, base_url, session):
+        with allure.step('请求百度'):
+            response = session.get(base_url)
+            assert response.status_code == 200
+
+    @allure.title("test_5")
+    def test_1(self, base_url, session):
+        with allure.step('请求百度'):
+            response = session.get(base_url)
+            assert response.status_code == 200
+
+    @allure.title("test_6")
+    def test_1(self, base_url, session):
+        with allure.step('请求百度'):
+            response = session.get(base_url)
+            assert response.status_code == 200
+
+    @allure.title("test_7")
+    def test_1(self, base_url, session):
+        with allure.step('请求百度'):
+            response = session.get(base_url)
+            assert response.status_code == 200
+
+    @allure.title("test_8")
+    def test_1(self, base_url, session):
+        with allure.step('请求百度'):
+            response = session.get(base_url)
+            assert response.status_code == 200
+
+    @allure.title("test_9")
+    def test_1(self, base_url, session):
+        with allure.step('请求百度'):
+            response = session.get(base_url)
+            assert response.status_code == 200
+
+    @allure.title("test_10")
+    def test_1(self, base_url, session):
         with allure.step('请求百度'):
             response = session.get(base_url)
             assert response.status_code == 200
